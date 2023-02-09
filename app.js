@@ -34,8 +34,8 @@ class App{
 
 	 // Make a blue cube
         this.cube = new THREE.Mesh(
-            new THREE.BoxBufferGeometry(2, 2, 2),
-            new THREE.MeshLambertMaterial({color:'blue'})
+            new THREE.BoxBufferGeometry(0.5, 0.5, 0.5),
+            new THREE.MeshLambertMaterial({color:'red'})
         );
         this.cube.position.set(0, 1.5, 3);
         this.scene.add(this.cube);
